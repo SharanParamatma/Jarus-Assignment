@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jarus Task</string>
+    <string name="vin">VIN</string>
+    <string name="year">Year</string>
+    <string name="make">Make</string>
+    <string name="value">Value</string>
+    <string name="length">Length</string>
+
+</resources>

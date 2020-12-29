@@ -1,0 +1,10 @@
+<resources>
+
+
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+    <dimen name="text_big_size">18sp</dimen>
+    <dimen name="ed_hei">45dp</dimen>
+    <dimen name="tv_hei">40dp</dimen>
+
+</resources>
