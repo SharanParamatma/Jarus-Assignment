@@ -10,10 +10,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class EquipmentViewModel : ViewModel() {
+
     private var equipment:List<Equipment>?=null
     private var apiClient = ApiClient()
     private var mutableLiveData: MutableLiveData<List<Equipment>>? = null
-
 
     private fun fromServer(){
         viewModelScope.launch(Dispatchers.IO) {
@@ -33,7 +33,4 @@ class EquipmentViewModel : ViewModel() {
             }
             return mutableLiveData!!
         }
-
-
-
 }
